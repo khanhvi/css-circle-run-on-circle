@@ -25,10 +25,10 @@ body {
     height: 2px;
     transform-origin: right;
     background-color: transparent;
-    animation: rotateX 3s linear infinite;
+    animation: rotate 3s linear infinite;
 }
 
-@keyframes rotateX {
+@keyframes rotate {
     0% {
         transform: rotate(0deg);
     }
